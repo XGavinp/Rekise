@@ -16,10 +16,9 @@
    ```bash
    Npm run build
 
-5. **Build the Project:**
+5. **Run the Eject Command:**
      ```bash
-   Run the Eject Command:
-
+     npm run eject
 
   Ensure Your Code is Committed:
 
