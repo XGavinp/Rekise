@@ -54,7 +54,7 @@ function App() {
   return (
     <>
       <div style={{ textAlign: 'center', margin: '20px 0', fontSize: '26px', fontWeight: 'bold' }}>
-      Rekise Frontend Internship Assignment by Gavin Pereira 
+        Rekise Frontend Internship Assignment by <a href="https://github.com/XGavinp" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'none' }}>Gavin Pereira</a>
       </div>
       <div style={{display:'flex',padding:'20px',marginBottom:'20px',border:'1px solid gray',borderRadius:'10px'}}>
       <div style={{ padding: '10px', color: 'rgb(215, 0, 0)' }}>
@@ -79,6 +79,7 @@ function App() {
       <Marker position={end as LatLngTuple} icon={endIcon}></Marker>
       </MapContainer>
     </>
+    
   )
 }
 
