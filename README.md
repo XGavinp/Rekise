@@ -1,30 +1,32 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instructions to Run the Repository:
 
-Currently, two official plugins are available:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/XGavinp/Rekise.git
+2. **Install Dependencies:**
+   ```bash
+   npm install
+3. **Run Updates:Start the Development Server:**
+    ```bash
+   npm start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. **Build the Project:**
+   ```bash
+   Npm run build
 
-## Expanding the ESLint configuration
+5. **Build the Project:**
+     ```bash
+   Run the Eject Command:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+  Ensure Your Code is Committed:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Make sure all your changes are committed before ejecting, as this process will make significant changes to your project.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Note:
+
+<br>1.Irreversible: Ejecting is a one-way operation. Once you eject, you cannot go back to the CRA default configuration.</br>
+<br>2.Alternative: If you only need to customize parts of your configuration, consider using tools like react-app-rewired or craco for more flexibility without ejecting.</br>
+
