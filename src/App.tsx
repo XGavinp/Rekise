@@ -5,6 +5,7 @@ import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet-rotatedmarker'
 import { useState,useEffect } from 'react';
+import { Analytics } from "@vercel/analytics/react"
 
 const start = [22.1696 , 91.4996];
 const end = [22.2637, 91.7159];
